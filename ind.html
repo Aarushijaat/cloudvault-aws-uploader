@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CloudVault - Upload Files</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>CloudVault</h1>
+    <p>Securely upload your files to the AWS Cloud</p>
+
+    <input type="file" id="fileInput" />
+    <br>
+    <button onclick="uploadFile()">Upload</button>
+
+    <p id="status"></p>
+
+    <div class="footer">Powered by AWS Lambda, API Gateway & S3</div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
