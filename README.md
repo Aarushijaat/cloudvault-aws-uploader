@@ -24,7 +24,10 @@ A simple web-based file uploader built using:
 All files go to: `aarushi-cloudvault-files`
 
 ## 📂 Folder Structure
-
+index.html --> Frontend UI
+style.css --> CSS Styling
+script.js --> JavaScript for handling upload
+lambda.py --> AWS Lambda code
 ## 🚀 How to Use
 1. Choose file from browser.
 2. Click **Upload**.
